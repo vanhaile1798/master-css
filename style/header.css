@@ -33,6 +33,11 @@ header {
 	font-weight: 600;
 	font-size: 14px;
 	position: relative;
+
+}
+
+.inner--content {
+	color: #fff;
 }
 
 .header--list li a:before {

@@ -14,6 +14,7 @@
 	text-shadow: 0 6px 32px #484848;
 	font-size: 48px;
 	margin-bottom: 32px;
+	color: #fff;
 }
 
 .header--hero--img--wrapper {
@@ -32,6 +33,7 @@
 	margin-right: 40px;
 	font-size: 18px;
 	font-weight: 600;
+	color: #fff;
 }
 
 .header--hero--img--list__active--item {
@@ -138,5 +140,9 @@
 	border-radius: 4px;
 	box-shadow: 0 10px 36px rgba(0,0,0,0.65);
 	cursor: pointer;
+}
+
+.header--search--button i {
+	color: #fff;
 }
 
