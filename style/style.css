@@ -33,3 +33,23 @@ h1, h2, h3, h4, h5, h6 {
 	margin: auto;
 	padding: 0 32px;
 }
+
+.part {
+	padding-top: 24px;
+	padding-bottom: 40px;
+}
+
+.first--part h2, .part h2 {
+	margin-bottom: 16px;
+	color: #464646;
+}
+
+.first--part {
+	padding: 32px 0;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+	padding: 0 32px;
+}
