@@ -3,19 +3,23 @@
 	padding-bottom: 40px;
 }
 
-.part--title--text h2, .part--title--text h3 {
+.title-text__h2, .title-text__h3 {
 	color: #464646;
 }
 
-.part--title--text h3 {
+.title-text__h3 {
 	font-weight: 100;
 }
 
-.first--part {
+.first-part {
 	padding: 32px 0;
 }
 
-.part--title {
+.first-part__h2 {
+	margin-bottom: 16px;
+}
+
+.part-title {
 	margin-bottom: 16px;
 	width: 50%;
 	display: flex;
@@ -23,15 +27,15 @@
 
 }
 
-.part--title:hover .part--title--icon {
+.part-title:hover .part-title__icon {
 	opacity: 1;
 }
 
-.part--title--text {
+.title-text {
 	width: 95%;
 }
 
-.part--title--icon {
+.part-title__icon {
 	flex-grow: 1;
 	display: flex;
 	align-items: center;
@@ -41,7 +45,7 @@
 }
 
 main {
-	width: 70%;
+	width: 1070px;
 	margin: auto;
 	padding: 0 32px;
 }

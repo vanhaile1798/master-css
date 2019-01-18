@@ -1,11 +1,17 @@
-.main--small--medium--item--container {
+.small-medium-item-container {
 	display: flex;
 	margin-left: -8px;
 	margin-right: -8px;
 	position: relative;
 }
 
-.main--small--medium--item--container--next--button {
+.small-medium-item-holder {
+	width: 20%;
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+
+.small-medium-item-container__next-button {
 	height: 40px;
 	width: 40px;
 	box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 1px 1px;
@@ -22,13 +28,9 @@
 	z-index: 1;
 }
 
-.main--small--medium--item--holder {
-	width: 20%;
-	padding: 0 8px;
-	box-sizing: border-box;
-}
 
-.main--small--medium--item--image--holder {
+
+.small-medium-item-image-holder {
 	background: url('../img/small-medium-item.jpg');
 	background-size: cover;
 	background-position: center;
@@ -38,7 +40,7 @@
 	border-radius: 4px;
 }
 
-.main--small--medium--item--image--holder:before {
+.small-medium-item-image-holder:before {
 	content: '';
 	position: absolute;
 	height: 100%;
@@ -47,18 +49,18 @@
 	border-radius: 4px;
 }
 
-.main--small--medium--item--text--holder .main--small--medium--item--place, .main--small--medium--item--text--holder .main--small--medium--item--price {
+.small-medium-item-text-holder__item-place, .small-medium-item-text-holder__item-price {
 	color: #fff;
 	width: 60%;
 	text-align: center;
 }
 
-.main--small--medium--item--text--holder .main--small--medium--item--place {
+.small-medium-item-text-holder__item-place {
 	font-size: 18px;
 	font-weight: 700;
 }
 
-.main--small--medium--item--text--holder {
+.small-medium-item-text-holder {
 	display: flex;
 	flex-direction: column;
 	align-items: center;

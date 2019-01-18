@@ -1,11 +1,11 @@
-.main--large--item--container {
+.large-item-container {
 	display: flex;
 	margin-left: -8px;
 	margin-right: -8px;
 	position: relative;
 }
 
-.main--large--item--container--next--button, .main--large--item--container--prev--button {
+.large-item-container__next-button, .large-item-container__prev-button {
 	height: 40px;
 	width: 40px;
 	box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 1px 1px;
@@ -18,23 +18,23 @@
 	cursor: pointer;
 }
 
-.main--large--item--container--next--button {
+.large-item-container__next-button {
 	right: -1%;
   	top: 28%;
 	z-index: 1;
 
 }
-.main--large--item--container--prev--button {
+.large-item-container__prev-button {
 	left: -1%;
   	top: 28%;
 	z-index: 1;
 }
 
-.main--large--item--description, .main--large--item--title {
+.large-item-text-holder__item-description, .large-item-text-holder__text-title {
 	color: #484848;
 }
 
-.main--large--item--image--holder {
+.large-item__image-holder {
 	background: url('../img/large-item.jpg');
 	width: 100%;
 	height: 204px;
@@ -44,28 +44,28 @@
 	margin-bottom: 16px;
 }
 
-.main--large--item--text--holder {
+.large-item-text-holder {
 	display: flex;
 	flex-direction: column;
 }
 
-.main--large--item--text--holder .main--large--item--title {
+.large-item-text-holder__text-title {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: 700;
 	margin-bottom: 4px;
 }
 
-.main--large--item--description {
+.large-item-text-holder__item-description {
 	font-weight: 100;
 }
 
-.main--large--item--holder {
+.large-item-holder {
 	width: 33.33333333%;
 	padding: 0 8px;
 	box-sizing: border-box;
 }
 
-.main--large--item--text--holder {
+.large-item-text-holder {
 	width: 85%;
 }
